@@ -14,6 +14,7 @@ I have developed the project using **Python** with a combination of LLamaIndex a
 3. Configure the LLM model for specific tasks (e.g., text generation, summarization).
 4. Run the Python scripts to execute indexing and querying operations.
 5. Also need to create a .env file where you need to store the api keys like this way. OPENAI_API_KEY="your_api_key"
+6. To run fast API, run in console "uvicorn main:app --reload"
 
 ---
 
@@ -31,5 +32,6 @@ I have developed the project using **Python** with a combination of LLamaIndex a
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/Kaushik0621/Dictionary_USING_LLAMA_LLM_SQL.git
    cd your-repo
+   uvicorn main:app --reload
